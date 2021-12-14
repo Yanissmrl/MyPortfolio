@@ -5,7 +5,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Integration virgin template</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="dist/css/reset.css" />
@@ -15,39 +19,53 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="bckg-topbar">
+            <div class="container">
+                <div class="header__topbar">
 
-            <div class="header__topbar">
+                    <div class="header__topbar_logo">
+                        <img src="src/images/icons8-code-48.png" alt="logo code">
+                        <h2 class="header__topbar_logo_h2">Yaniss Marelle</h2>
+                        <img src="src/images/icons8-code-48.png" alt="logo code">
+                    </div>
 
-                <div class="logo">
-                    <!-- i -->
-                    <h2>Yaniss Marelle</h2>
-                    <!-- i -->
+                    <div class="header__topbar_navigation">
+                        <p class="header__topbar_navigation_nav">Profil</p>
+                        <p class="header__topbar_navigation_nav">Parcours</p>
+                        <p class="header__topbar_navigation_nav">Compétences</p>
+                        <p class="header__topbar_navigation_nav">Me Contacter</p>
+                    </div>
                 </div>
-
             </div>
-
+        </div>
+        <div class="container">
             <div class="header__content">
 
                 <div class="header__content_pres">
-                    <!-- div pres et image -->
-                    <h1>Yaniss Marelle</h1>
-                    <h2>étudiant Développeur Web</h2>
-                    <!-- i -->
-                    <!-- i -->
-                    <!-- i -->
-                    <div class="header__content_pres_img">
-                        <img src="" alt="Illustration Développeur">
+                    <h1 class="header__content_pres_h1">Yaniss Marelle</h1>
+                    <h2 class="header__content_pres_h2">étudiant Développeur Web</h2>
+                    <div class="header__content_pres_logos">
+                        <img class="header__content_pres_logos_logo" src="src/images/icons8-linkedin-256.png"
+                            alt="logo linkedin">
+                        <img class="header__content_pres_logos_logo" src="src/images/icons8-github-144.png"
+                            alt="logo github">
+                        <img class="header__content_pres_logos_logo" src="src/images/icons8-instagram-48.png"
+                            alt="logo instagram">
+                    </div>
+                    <div class="header__content_pres_image">
+                        <img class="header__content_pres_image_img"
+                            src="src/images/undraw_developer_activity_re_39tg.svg" alt="Illustration Développeur">
                     </div>
                 </div>
 
-                <div class="header__content_photo">
-                    <img src="" alt="Photo de moi">
+                <div class="header__content_myphoto">
+                    <img class="header__content_myphoto_photo" src="src/images/fond-noir.png" alt="Photo de moi">
                 </div>
 
             </div>
-
-
+            <div class="header__mouse">
+                <img class="header__mouse_icon" src="src/images/mouse icon.png" alt="icone mouse">
+            </div>
         </div>
     </header>
 
