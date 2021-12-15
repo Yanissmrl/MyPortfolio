@@ -20,25 +20,7 @@
 <body>
 
     <header class="contact">
-        <div class="bckg-topbar">
-            <div class="container">
-                <div class="contact__topbar">
-
-                    <nav class="contact__topbar_logo">
-                        <img src="src/images/icons8-code-48.png" alt="logo code">
-                        <h2 class="contact__topbar_logo_h2">Yaniss Marelle</h2>
-                        <img src="src/images/icons8-code-48.png" alt="logo code">
-                    </nav>
-
-                    <nav class="contact__topbar_navigation">
-                        <p class="contact__topbar_navigation_nav">Profil</p>
-                        <p class="contact__topbar_navigation_nav">Parcours</p>
-                        <p class="contact__topbar_navigation_nav">Compétences</p>
-                        <p class="contact__topbar_navigation_nav">Me Contacter</p>
-                    </nav>
-                </div>
-            </div>
-        </div>
+        <?php include "nav.php" ?>
 
         <div class="container">
             <div class="contact__all">
@@ -57,7 +39,8 @@
                     </div>
                     <div class="contact__all_form_second-inputs">
                         <input placeholder="Sujet" class="contact__all_form_second-inputs_input scnd-inpt" type="text">
-                        <input placeholder="Message" class="contact__all_form_second-inputs_input scnd-inpt" type="text">
+                        <input placeholder="Message" class="contact__all_form_second-inputs_input scnd-inpt"
+                            type="text">
                         <button class="contact__all_form_second-inputs_button">Envoyer</button>
 
                     </div>
@@ -65,6 +48,11 @@
                 </div>
             </div>
         </div>
+    </header>
+    
+    <footer class="footer-contact">
+        <p class="footer-contact__p">© 2021 Portfolio de Yaniss Marelle</p>
+    </footer>
 
 </body>
 

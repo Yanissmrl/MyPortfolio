@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Integration virgin template</title>
+    <title>Compétences</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="dist/css/styles.css" />
 
 </head>
+
+<body>
+
+    <header class="competences">
+        <?php include "nav.php" ?>
+    </header>
+
 
 </body>
 
