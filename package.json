@@ -24,6 +24,7 @@
   "description": "",
   "dependencies": {
     "copyfiles": "^2.4.1",
+    "hover.css": "^2.3.2",
     "sharp-cli": "^1.15.0"
   }
 }

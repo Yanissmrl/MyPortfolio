@@ -7,6 +7,8 @@
         &_logo
             display: flex
             align-items: center
+            .img
+                height: 2.5rem
             &_h2
                 font-family: 'Poppins', sans-serif
                 font-weight: bold
@@ -14,11 +16,38 @@
                 padding: 0 0.25rem 0 0.25rem
                 color: $white
                 text-decoration: none
+                @media screen and (max-width: 740px)
+                    font-size: 1rem
+                @media screen and (max-width: 320px)
+                    font-size: 0.7rem
         &_navigation
             display: flex
             align-items: center
+            .li
+                display: flex
             &_nav
+                position: relative
                 margin-left: 4rem
-                color: $white
+                color: #ecececa0
                 font-family: 'Rubik', sans-serif
                 text-decoration: none
+                padding: 0 5px 0 2px
+                @media screen and (max-width: 740px)
+                    margin-left: 3rem
+                @media screen and (max-width: 320px)
+                    font-size: 0.5rem
+                    margin: 0
+                &:hover
+                    color: #ffff
+                &::after
+                    content: ""
+                    position: absolute
+                    background-color: #6C19FF
+                    height: 3px
+                    width: 0%
+                    left: 0
+                    bottom: -7px
+                    transition: 0.3s
+                &:hover
+                    &::after
+                        width: 100%

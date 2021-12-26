@@ -21,21 +21,23 @@
 
             <ul class="bckg-topbar__topbar_logo">
 
-                <li><a href="index.php"><img src="src/images/icons-code-1.png" alt="logo code"></a></li>
+                <li><a href="index.php"><img  class="img" src="src/images/icons-code-1.png" alt="logo code"></a></li>
                 <li><a class="bckg-topbar__topbar_logo_h2" href="index.php">
                         Yaniss Marelle
                     </a>
 
                 </li>
-                <li><a href="index.php"><img src="src/images/icons-code-2.png" alt="logo code"></a></li>
+                <li><a href="index.php"><img  class="img" src="src/images/icons-code-2.png" alt="logo code"></a></li>
 
-            </ul> 
+            </ul>
 
             <ul class="bckg-topbar__topbar_navigation">
-            <?php if ($_SERVER['PHP_SELF'] == '/projet-portfolio/MyPortfolio/index.php'){echo '<li><a href="#profil" class="bckg-topbar__topbar_navigation_nav">Profil</a></li>';}?>  
-                <li><a href="parcours.php" class="bckg-topbar__topbar_navigation_nav">Parcours</a></li>
-                <li><a href="compétences.php" class="bckg-topbar__topbar_navigation_nav">Compétences</a></li>
-                <li><a href="contact.php" class="bckg-topbar__topbar_navigation_nav">Me Contacter</a></li>
+                <?php if ($_SERVER['PHP_SELF'] == '/projet-portfolio/MyPortfolio/index.php') {
+                    echo '<li class="li"><a href="#profil" class="bckg-topbar__topbar_navigation_nav">Profil <div class="hover"></div></a></li>';
+                } ?>
+                <li class="li"><a href="parcours.php" class="bckg-topbar__topbar_navigation_nav">Parcours</a></li>
+                <li class="li"><a href="compétences.php" class="bckg-topbar__topbar_navigation_nav">Compétences</a></li>
+                <li class="li"><a href="contact.php" class="bckg-topbar__topbar_navigation_nav">Me Contacter</a></li>
             </ul>
         </div>
     </div>

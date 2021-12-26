@@ -13,28 +13,40 @@
                 font-weight: bold
                 font-size: 2rem
                 padding-top: 1rem
+                @media screen and (max-width: 320px)
+                    font-size: 1.5rem
             &_h2
                 font-family: 'Rubik', sans-serif
                 text-transform: capitalize
                 font-weight: 500
                 font-size: 1.5rem
                 padding-top: 1rem
+                @media screen and (max-width: 320px)
+                    font-size: 1rem
             &_logos
                 margin: .5rem 0 0 5rem
+                @media screen and (max-width: 320px)
+                    margin: 0
                 &_logo
                     height: 1.5rem
                     margin-left: 0.5rem
+                    margin-top: 0.5rem
             &_image
                 &_img
                     height: 18rem
-                    margin-top: 2rem
-
+                    margin-top: 3rem
+                    @media screen and (max-width: 740px)
+                        height: 15rem
+                    @media screen and (max-width: 320px)
+                        height: 7rem
         &_myphoto
+            @media screen and (max-width: 320px)
+                display: flex
+                align-items: center
             &_photo
                 height: 25rem
-    &__mouse
-        height: 3rem
-        display: flex
-        justify-content: center
-        margin-top: 7rem
-        &_icon
+                border-radius: 2rem
+                @media screen and (max-width: 740px)
+                    height: 20rem
+                @media screen and (max-width: 320px)
+                    height: 10rem

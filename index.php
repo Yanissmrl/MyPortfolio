@@ -35,12 +35,9 @@
                 </div>
 
                 <div class="header__content_myphoto">
-                    <img class="header__content_myphoto_photo" src="src/images/fond-noir.png" alt="Photo de moi">
+                    <img class="header__content_myphoto_photo" src="src\images\photo-moi.jpg" alt="Photo de moi">
                 </div>
 
-            </div>
-            <div class="header__mouse">
-                <img class="header__mouse_icon" src="src/images/mouse icon.png" alt="icone mouse">
             </div>
         </div>
     </header>
