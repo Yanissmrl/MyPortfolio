@@ -35,7 +35,9 @@
                                 <p class="p3">Développeur Web</p>
                             </div>
                             <div class="parcours__all-timeline_exp_box_date">
-                                date
+                                <p class="p-date">Février 2021</p>
+                                <p class="p-date"> - </p>
+                                <p class="p-date">Avril 2021</p>
                                 <div class="parcours__all-timeline_exp_box_date_line">
 
                                 </div>
@@ -50,7 +52,7 @@
                             </div>
 
                             <div class="parcours__all-timeline_exp_box_date">
-                                date
+                                <p class="p-date">2021</p>
                                 <div class="parcours__all-timeline_exp_box_date_line">
 
                                 </div>
@@ -73,7 +75,9 @@
                         <div class="parcours__all-timeline_form_box">
 
                             <div class="parcours__all-timeline_form_box_date">
-                                date
+                                <p class="p-date">2021</p>
+                                <p class="p-date"> - </p>
+                                <p class="p-date">2024</p>
                                 <div class="parcours__all-timeline_form_box_date_line">
 
                                 </div>
