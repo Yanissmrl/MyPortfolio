@@ -17,6 +17,8 @@
 
 <body>
 
+    <!-- a refaire complétement !!!! -->
+
     <header class="competences">
         <?php include "nav.php" ?>
         <div class="container">
