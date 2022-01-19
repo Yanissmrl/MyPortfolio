@@ -15,15 +15,15 @@
 
 </head>
 
-<body>
 
-    <!-- a refaire complétement !!!! -->
+<body>
 
     <header class="competences">
         <?php include "nav.php" ?>
         <div class="container">
 
-            <h2 class="competences__h2">Mes Compétences</h2>
+            <h1>a refaire complétement !!!!</h1>
+            <!-- <h2 class="competences__h2">Mes Compétences</h2>
 
             <div class="competences__images">
 
@@ -54,11 +54,11 @@
 
         </div>
 
-    </header>
+    </header> -->
 
-    <footer class="footer-competences">
-        <p class="footer-competences__p">© 2021 Portfolio de Yaniss Marelle</p>
-    </footer>
+            <!-- <footer class="footer-competences">
+                <p class="footer-competences__p">© 2021 Portfolio de Yaniss Marelle</p>
+            </footer> -->
 
 
 </body>
