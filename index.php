@@ -26,9 +26,9 @@
                     <h1 class="header__content_pres_h1">Yaniss Marelle</h1>
                     <h2 class="header__content_pres_h2">étudiant Développeur Web</h2>
                     <div class="header__content_pres_logos">
-                        <img class="header__content_pres_logos_logo" src="src/images/icons8-linkedin-256.png" alt="logo linkedin">
-                        <img class="header__content_pres_logos_logo" src="src/images/icons8-github-144.png" alt="logo github">
-                        <img class="header__content_pres_logos_logo" src="src/images/icons8-instagram-48.png" alt="logo instagram">
+                        <a href="https://www.linkedin.com/in/yaniss-marelle-7b3837225/"><img class="header__content_pres_logos_logo" src="src/images/icons8-linkedin-256.png" alt="logo linkedin"></a>
+                        <a href="https://github.com/Yanissmrl"><img class="header__content_pres_logos_logo" src="src/images/icons8-github-144.png" alt="logo github"></a>
+                        <a href="https://www.instagram.com/yanissmrl/"><img class="header__content_pres_logos_logo" src="src/images/icons8-instagram-48.png" alt="logo instagram"></a>
                     </div>
                     <div class="header__content_pres_image">
                         <img class="header__content_pres_image_img" src="src/images/undraw_developer_activity_re_39tg.svg" alt="Illustration Développeur">
